@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Organism
+comment0.text=\r\n\ A\ class\ representing\ shared\ characteristics\ of\ organisms.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ Michael\ K\u00F6lling,\ Adnan\ Salah,\ Said\ Mammadov.\r\n\ @version\ 2021.03.02\ (3)\r\n
+comment1.params=foodValue
+comment1.target=Organism(int)
+comment1.text=\r\n\ Create\ a\ new\ organism\r\n\ \r\n\ @param\ foodValue\ the\ amount\ of\ hunger\ it\ satisfies\ when\ it\ gets\ eaten.\r\n
+comment2.params=
+comment2.target=boolean\ isAlive()
+comment2.text=\r\n\ Check\ whether\ the\ organism\ is\ alive\ or\ not.\r\n\ @return\ true\ if\ the\ organism\ is\ still\ alive.\r\n
+comment3.params=
+comment3.target=void\ setDead()
+comment3.text=\r\n\ Indicate\ that\ the\ organism\ is\ no\ longer\ alive.\r\n
+comment4.params=
+comment4.target=int\ getFoodValue()
+comment4.text=\r\n\ Return\ the\ organism's\ food\ value.\r\n\ @return\ the\ organism's\ food\ value.\r\n
+comment5.params=newFoodValue
+comment5.target=void\ setFoodValue(int)
+comment5.text=\r\n\ set\ the\ organism's\ food\ value.\r\n
+numComments=6

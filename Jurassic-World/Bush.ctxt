@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Bush
+comment0.text=\r\n\ a\ Simple\ model\ of\ a\ Bush\ that\ grows\ and\ spreads\ in\ the\ simulation.\r\n\r\n\ @author\ Adnan\ Salah,\ Said\ Mammadov\r\n\ @version\ 1\r\n
+comment1.params=environmentField\ location
+comment1.target=Bush(Field,\ Location)
+comment1.text=\r\n\ Create\ a\ bush\ with\ age\ 0.\r\n\ \r\n\ @param\ environmentField\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=newPlants\ isDay\ weather
+comment2.target=void\ act(java.util.List,\ boolean,\ WeatherEnum)
+comment2.text=\r\n\ This\ is\ what\ the\ bush\ does\ most\ of\ the\ time\:\ it\ might\ spread,\ get\ eaten\r\n\ or\ die\ of\ old\ age.\r\n\ @param\ newPlants\ A\ list\ to\ return\ new\ bushes.\r\n\ @param\ isDay\ If\ it\ means\ daytime,\ otherwise\ night-time\r\n\ @param\ weather\ It\ shows\ the\ state\ of\ the\ weather.\r\n
+comment3.params=
+comment3.target=void\ incrementAge()
+comment3.text=\r\n\ Increase\ the\ age.\ This\ could\ result\ in\ the\ bush's\ death.\r\n
+comment4.params=newBushes\ isDay\ weather
+comment4.target=void\ spreadSeeds(java.util.List,\ boolean,\ WeatherEnum)
+comment4.text=\r\n\ Check\ whether\ or\ not\ this\ bush\ is\ ready\ to\ spread\ at\ this\ step.\r\n\ New\ spreads\ will\ be\ made\ into\ free\ adjacent\ locations.\r\n\ @param\ newBushes\ A\ list\ to\ return\ new\ bushes.\r\n\ @param\ isDay\ If\ it\ means\ daytime,\ otherwise\ night-time\r\n\ @param\ weather\ It\ shows\ the\ state\ of\ the\ weather.\r\n
+comment5.params=isDay\ weather
+comment5.target=int\ spread(boolean,\ WeatherEnum)
+comment5.text=\r\n\ Generate\ a\ number\ representing\ the\ number\ of\ spreads,\r\n\ if\ it\ can\ spread.\r\n\ @return\ The\ number\ of\ spreads\ (may\ be\ zero).\r\n\ @param\ isDay\ If\ it\ means\ daytime,\ otherwise\ night-time\r\n\ @param\ weather\ It\ shows\ the\ state\ of\ the\ weather.\r\n
+comment6.params=
+comment6.target=boolean\ canSpread()
+comment6.text=\r\n\ A\ bush\ can\ spread\ if\ it\ has\ reached\ the\ spreading\ age.\r\n
+numComments=7

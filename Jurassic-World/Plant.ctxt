@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Plant
+comment0.text=\r\n\ A\ class\ representing\ shared\ characteristics\ of\ plants.\r\n\ \r\n\ @author\ David\ J.\ Barnes,\ Michael\ K\u00F6lling,\ Adnan\ Salah,\ Said\ Mammadov\r\n\ @version\ 2021.02.03\ (3)\r\n
+comment1.params=environmentField\ location\ foodValue
+comment1.target=Plant(Field,\ Location,\ int)
+comment1.text=\r\n\ Create\ a\ new\ plant\ at\ location\ in\ field.\r\n\ \r\n\ @param\ environmentField\ The\ field\ plants\ are\ currently\ occupying.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n\ @param\ foodValue\ the\ amount\ of\ hunger\ it\ satisfies\ when\ it\ gets\ eaten.\r\n
+comment2.params=newPlants\ isDay\ weather
+comment2.target=void\ act(java.util.List,\ boolean,\ WeatherEnum)
+comment2.text=\r\n\ Make\ this\ Plant\ act\ -\ that\ is\:\ make\ it\ do\r\n\ whatever\ it\ wants/needs\ to\ do.\r\n\ @param\ newPlants\ A\ list\ to\ receive\ newly\ born\ animals.\r\n\ @param\ isDay\ If\ true,\ it\ represents\ daytime.\ Otherwise\ nighttime.\r\n\ @param\ weather\ An\ enum\ that\ represents\ different\ weathers\ of\ the\ simulation.\r\n
+comment3.params=
+comment3.target=void\ setDead()
+comment3.text=\r\n\ Indicate\ that\ the\ plant\ is\ no\ longer\ alive.\r\n\ It\ is\ removed\ from\ the\ field.\r\n
+comment4.params=
+comment4.target=Location\ getLocation()
+comment4.text=\r\n\ Return\ the\ plant's\ location.\r\n\ @return\ The\ plant's\ location.\r\n
+comment5.params=newLocation
+comment5.target=void\ setLocation(Location)
+comment5.text=\r\n\ Place\ the\ plant\ at\ the\ new\ location\ in\ the\ given\ field.\r\n\ @param\ newLocation\ The\ plant's\ new\ location.\r\n
+comment6.params=
+comment6.target=Field\ getEnvironmentField()
+comment6.text=\r\n\ Return\ the\ plant's\ field.\r\n\ @return\ The\ plant's\ field.\r\n
+numComments=7

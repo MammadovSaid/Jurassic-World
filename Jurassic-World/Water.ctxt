@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Water
+comment0.text=\r\n\ Represents\ water\ in\ a\ field.\ Mostly\ there\ so\ that\ animals\ can\ drink.\r\n\r\n\ @author\ Adnan\ Salah,\ Said\ Mammadov.\r\n\ @version\ 1\r\n
+comment1.params=enviromentField\ location
+comment1.target=Water(Field,\ Location)
+comment1.text=\r\n\ Create\ new\ water\ at\ location\ in\ field.\r\n\ \r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+numComments=2

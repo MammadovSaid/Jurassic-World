@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\r\n\ A\ class\ representing\ shared\ characteristics\ of\ animals.\r\n\ \r\n\ @author\ David\ J.\ Barnes,\ Michael\ K\u00F6lling,\ Adnan\ Salah,\ Said\ Mammadov.\r\n\ @version\ 2021.03.02\ (3)\r\n
+comment1.params=animalField\ environmentField\ location\ foodValue
+comment1.target=Animal(Field,\ Field,\ Location,\ int)
+comment1.text=\r\n\ Create\ a\ new\ animal\ at\ location\ in\ field.\r\n\ \r\n\ @param\ animalField\ The\ field\ animals\ are\ currently\ occupying.\r\n\ @param\ environmentField\ The\ field\ the\ environment\ is\ currently\ occupying.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n\ @param\ foodValue\ the\ amount\ of\ hunger\ it\ satisfies\ when\ it\ gets\ eaten.\r\n
+comment2.params=newAnimals\ isDay\ weather
+comment2.target=void\ act(java.util.List,\ boolean,\ WeatherEnum)
+comment2.text=\r\n\ Make\ this\ Animal\ act\ -\ that\ is\:\ make\ it\ do\r\n\ whatever\ it\ wants/needs\ to\ do.\r\n\ @param\ newAnimals\ A\ list\ to\ receive\ newly\ born\ animals.\r\n\ @param\ isDay\ If\ true,\ it\ represents\ daytime.\ Otherwise\ nighttime.\r\n\ @param\ weather\ An\ enum\ that\ represents\ different\ weathers\ of\ the\ simulation.\r\n
+comment3.params=
+comment3.target=void\ setDead()
+comment3.text=\r\n\ Indicate\ that\ the\ animal\ is\ no\ longer\ alive.\r\n\ It\ is\ removed\ from\ the\ field.\r\n
+comment4.params=
+comment4.target=Location\ getLocation()
+comment4.text=\r\n\ Return\ the\ animal's\ location.\r\n\ @return\ The\ animal's\ location.\r\n
+comment5.params=newLocation
+comment5.target=void\ setLocation(Location)
+comment5.text=\r\n\ Place\ the\ animal\ at\ the\ new\ location\ in\ the\ given\ field.\r\n\ @param\ newLocation\ The\ animal's\ new\ location.\r\n
+comment6.params=
+comment6.target=Field\ getAnimalField()
+comment6.text=\r\n\ Return\ the\ animal's\ field.\r\n\ @return\ The\ animal's\ field.\r\n
+comment7.params=
+comment7.target=Field\ getEnvironmentField()
+comment7.text=\r\n\ Return\ the\ environment's\ field.\r\n\ @return\ The\ environment's\ field.\r\n
+numComments=8
